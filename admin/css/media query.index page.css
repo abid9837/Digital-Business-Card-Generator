@@ -1,0 +1,9 @@
+@media screen and (max-width: 440px) {
+    .popup_notice{
+        width: 300px;
+    }
+    .innderSection_form{
+        width: 300px;
+    }
+
+}

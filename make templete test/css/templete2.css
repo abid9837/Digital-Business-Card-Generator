@@ -1,0 +1,169 @@
+
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+.mian_card_div{
+    width: 340px;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(66, 64, 64, 0.5);
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.header_card_main{
+    width: 100%;
+    height: 280px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+.logo_card_div{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_card_div img{
+    width: 100%;
+    height: auto;
+}
+.heder_img_div{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.heder_img_div img{
+    width: 100%;
+    height: auto;
+}
+.user_name{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.designation{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.department{
+    font-size: 14px;
+    margin: 5px;
+}
+
+.show_inline_icons_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -23px;
+}
+
+.show_inline_icons_div a{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.396);
+}
+.card_short_desc_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.short_desc_text{
+    margin-top: 25px;
+    text-align: left;
+    line-height: 24px;
+    color: black;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    width: 95%;
+    padding-bottom: 20px;
+
+}
+.card_mobile_div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_mobile_div div{
+    width: 95%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.card_mobile_div div p{
+    color: black;
+}
+.card_email_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.card_email_div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: start;
+    border-bottom: 1px solid black;
+    width: 95%;
+    padding: 20px 0px;
+}
+.card_email_div div p{
+    text-align: left;
+    color: black;
+}
+.Add_contact_div{
+    width: 60px;
+    height: 60px;
+    background-color: rebeccapurple;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: -110px 0px 0px 260px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.485);
+    color: white;
+}
+
+
+
+
+
+
+
