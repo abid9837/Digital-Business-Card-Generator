@@ -1,0 +1,13 @@
+* main = in create_cardsb table create all nessesary data_fill link all type of links
+when user select in line social icon then show first form for input simple datas and last of the form will have 
+social media selector and that will be save in array.
+{
+    if user select social icons then save datas and go another page and ask for social media that they
+    selected and ask for this link
+    and final procces will save all the data
+}
+
+
+*make responsive edit templete.php  
+* logout pagepage clear all session
+* admin templete approve system and creatw qr code 
