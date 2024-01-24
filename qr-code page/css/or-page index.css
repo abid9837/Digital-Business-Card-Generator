@@ -1,0 +1,84 @@
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+#choose_QR_templete_main_div_body{
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.qr_templete_inner_div_main{
+    width: auto;
+    height: auto;
+    padding: 25px;
+    background-color: #14E2A4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.social_templete_main_div{
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 2px 2px 10px rgba(86, 86, 86, 0.351);
+    transition: .5s;
+}
+.social_templete_main_div:hover{
+    transform: scale(1.05);
+}
+.social_templete_main_div .common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_templete_main_div .left{
+    width: 100px;
+    background-color: rgb(225, 225, 225);
+}
+.social_templete_main_div .left img{
+    width: auto;
+    height: 40px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.social_templete_main_div .right{
+    background-color: rgb(237, 237, 237);
+    width: 300px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    gap: 8px;
+
+}
+.social_templete_main_div .right .title{
+    font-size: 22px;
+    color: black;
+}
+.social_templete_main_div .right .describe{
+    font-size: 15px;
+    color: rgb(204, 15, 15)11, 111, 111;
+}

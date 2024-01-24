@@ -1,0 +1,80 @@
+
+
+
+
+#body_section_main{
+    width: 100%;
+
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#templete_left_div{
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+#templete_left_div img{
+    height: 480px;
+    border-radius: 10px;
+}
+
+/*  */
+#templete_form_inputs{
+    width: 500px;
+    height: auto;
+    background-color: #14E2A4;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 30px;
+
+
+
+}
+#accountContainer form{
+    color: rgb(34, 34, 34);
+}
+#accountContainer form input{
+    background-color: #dadada;
+    color: rgb(145, 145, 145);
+}
+#accountContainer form input:focus{
+    color: rgb(8, 8, 8);
+}
+#accountContainer form input::placeholder{
+    color: #252525;
+}
+
+
+.iconsSelector_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.chekbox_and_label_center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+
+}
+
+.social_links_icons_input{
+    width: 85%;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid rgb(147, 147, 147);
+    
+}
+
+
+
+
+

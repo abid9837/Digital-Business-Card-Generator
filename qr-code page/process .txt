@@ -1,0 +1,9 @@
+qr templete page > select templete > edit templete > save templete > order > payment Number || trans id > order date > expire date > qr code src > qr code visit >  {re payment}
+
+in QR code add *?qr=qr&qr_tmp=1;
+then show templete by conditoins in my_qr folder
+
+****next work 
+* re payment 
+* new templete
+* delete pending order after 1 day (admin panel work)

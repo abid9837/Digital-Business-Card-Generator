@@ -1,0 +1,20 @@
+@media screen and (max-width: 550px) {
+    #section_body_main .Inner_section{
+        flex-direction: column;
+    }
+    #section_body_main .Inner_section #qr_dekstop{
+        display: none;
+    }
+    #section_body_main .Inner_section #qr_mobile{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    #section_body_main .Inner_section{
+        width: 100%;
+    }
+    #section_body_main .Inner_section .Right_content_payment_box{
+        width: 95%;
+    }
+
+}

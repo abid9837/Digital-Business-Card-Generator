@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#section_eidt_tmp_body_main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    
+}
+.edit_page_div_main{
+    width: 600px;
+    height: auto;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+}
+.input_padding_{
+    padding-left: 40px;
+}

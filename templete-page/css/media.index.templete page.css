@@ -1,0 +1,10 @@
+@media screen and (max-width: 440px) {
+    #templete_div{
+        width: 100%;
+        gap: 20px;
+    }
+    #templete_div img{
+        height: 250px;
+    }
+
+}

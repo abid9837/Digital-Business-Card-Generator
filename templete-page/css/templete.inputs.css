@@ -1,0 +1,74 @@
+
+.icons_check_box_opacity{
+    opacity: 0%;
+    position: absolute;
+
+}
+.label_for_icons_checkboxs{
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+.icons_check_box_opacity:checked + .label_for_icons_checkboxs{
+    background-color: rgb(255, 255, 255);
+}
+.icons_check_box_opacity:checked + .label_for_icons_checkboxs i{
+    color: rgb(0, 0, 0);
+}
+
+.chekbox_and_label_center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .iconsSelector_div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+} */
+.iconsSelector_div{
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
+
+.left_demo_templete_show{
+    width: 400px;
+    height: 100vh;
+
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10px;
+    margin-left: -100vw;
+    transition: 1s;
+    
+
+}
+
+
+
+
+
+
+
+
